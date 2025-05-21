@@ -1,3 +1,6 @@
-# DrugFree.Backend
+# DrugFree.Backend Ready to Code
 
-Folder structure only, Clean Architecture template.
+Clean Architecture base with:
+- EF Core + SQL Server
+- Mock FirebaseAuth
+- Global Exception Middleware
