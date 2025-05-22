@@ -1,3 +1,68 @@
-# Ignore build artifacts
+# Build output
 bin/
 obj/
+artifacts/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Dependency packages (NuGet restore)
+**/packages/*
+*.nupkg
+*.snupkg
+
+# EF Core local DB files
+*.mdf
+*.ldf
+*.ndf
+
+# Migrations (optional - nếu bạn rebuild từ đầu mỗi lần)
+# Migrations/
+
+# Configuration secrets (đừng commit)
+*.publishsettings
+*.pfx
+secrets.json
+
+# Log and temp files
+*.log
+*.tmp
+*.dbmdl
+*.jfm
+
+# Publish/Web artifacts
+AppPackages/
+BundleArtifacts/
+*.appx
+*.appxbundle
+*.appxupload
+publish/
+
+# Cache
+*.cache
+__pycache__/
+*.pyc
+*.pidb
+
+# Docker volumes/data (if mounted)
+docker-data/
+
+# Rider / JetBrains / ReSharper
+.idea/
+*.sln.iml
+_ReSharper*/
+*.DotSettings.user
+
+# VS Code config (keep project settings)
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# CI/CD
+.env
+.env.*
