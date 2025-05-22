@@ -3,7 +3,7 @@ name: Build and Deploy to Docker on Development Environment
 on:
   push:
     branches:
-      - dev
+      - dev/ci-cd
 
 jobs:
   build-and-deploy:
